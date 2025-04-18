@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "netlify dev"
+    "dev": "netlify dev",
+    "prisma": "prisma generate",
+    "init":" prisma migrate dev --name init"
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,12 @@
   "homepage": "https://github.com/adminparry/test-express-netlify#readme",
   "description": "",
   "dependencies": {
+    "@prisma/client": "^6.6.0",
     "express": "^5.1.0",
+    "prisma": "^6.6.0",
     "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^20.0.2"
   }
 }

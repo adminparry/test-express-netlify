@@ -3,7 +3,7 @@
   functions="api"
 [[redirects]]
   from = "/*"
-  to = "/.netlify/functions/server/:splat"
+  to = "/.netlify/functions/:splat"
   status = 200
 [functions]
   node_bundler = "esbuild"
