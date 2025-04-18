@@ -1,0 +1,24 @@
+{
+  "name": "test-express-netlify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "netlify dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adminparry/test-express-netlify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adminparry/test-express-netlify/issues"
+  },
+  "homepage": "https://github.com/adminparry/test-express-netlify#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "serverless-http": "^3.2.0"
+  }
+}
