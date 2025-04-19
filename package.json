@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "netlify dev",
     "prisma": "prisma generate",
-    "init":" prisma migrate dev --name init"
+    "init":" prisma migrate dev --name init",
+    "build": "netlify build"
   },
   "repository": {
     "type": "git",
