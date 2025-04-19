@@ -1,5 +1,5 @@
 [build]
-  command = "npm install && npm run init && npm run generate"
+  command = "npm install && npm run generate"
   functions="api"
 [[redirects]]
   from = "/*"
