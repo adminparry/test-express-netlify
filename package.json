@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "netlify dev",
-    "prisma": "prisma generate",
+    "generate": "prisma generate",
     "init":" prisma migrate dev --name init",
     "build": "netlify build"
   },
